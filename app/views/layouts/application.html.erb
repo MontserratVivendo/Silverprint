@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Silverprint</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    
+  <style> .dropdown:hover .dropdown-menu {
+     display: block;}
+  </style>
+  </head>
+
+<body> 
+    <nav class="bg-gray-700 text-blue-100 text-sm">
+   <!--LOGO-->
+    <div class=" absolute  h-48 w-32"> <br>
+   <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="130.629" height="130.267" viewBox="0 0 170.629 170.267">
+   <defs>
+   <filter id="Trazado_1" x="0" y="0" width="170.629" height="170.267" filterUnits="userSpaceOnUse">
+   <feOffset dy="3" input="SourceAlpha"/>
+   <feGaussianBlur stdDeviation="3" result="blur"/>
+   <feFlood flood-opacity="0.161"/>
+   <feComposite operator="in" in2="blur"/>
+   <feComposite in="SourceGraphic"/>
+   </filter>
+   </defs>
+   <g id="Componente_1_1" data-name="Componente 1 – 1" transform="translate(9 6)">
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Trazado_1)">
+    <path id="Trazado_1-2" data-name="Trazado 1" d="M575.623,268.285H481.63a21.489,21.489,0,0,0-21.164,17.765l-3.145,17.879-16.682,94.822L439.45,405.5a12.827,12.827,0,0,0,12.633,15.049h102.3a16.464,16.464,0,0,0,16.215-13.612l3.512-19.964,14.611-83.047,2.916-16.573A16.255,16.255,0,0,0,575.623,268.285Z" transform="translate(-430.25 -262.29)" fill="#fff"/>
+    </g>
+    <g id="Grupo_1" data-name="Grupo 1" transform="translate(18.821 42.523)">
+      <path id="Trazado_2" data-name="Trazado 2" d="M480.192,375.232a11.3,11.3,0,0,0,2.9,1.167,19.373,19.373,0,0,0,4.764.636,15.857,15.857,0,0,0,3.474-.4,10.161,10.161,0,0,0,3.216-1.311,7.575,7.575,0,0,0,2.383-2.382,6.528,6.528,0,0,0,.933-3.573,5.729,5.729,0,0,0-.477-2.422,5.244,5.244,0,0,0-1.35-1.787,8.335,8.335,0,0,0-2.085-1.291,15.917,15.917,0,0,0-2.68-.893,7.8,7.8,0,0,1-1.449-.5.674.674,0,0,1-.417-.616.726.726,0,0,1,.5-.695,3.246,3.246,0,0,1,1.29-.219,6.067,6.067,0,0,1,2.343.5,7.1,7.1,0,0,1,.736.356,1.823,1.823,0,0,0,2.247-.427l2.106-2.418a1.8,1.8,0,0,0-.554-2.8,11.991,11.991,0,0,0-1.816-.709,16.227,16.227,0,0,0-4.745-.695,13.582,13.582,0,0,0-3.554.477,10.511,10.511,0,0,0-3.176,1.429,7.339,7.339,0,0,0-2.263,2.422,6.673,6.673,0,0,0-.854,3.415,5.506,5.506,0,0,0,.417,2.223,4.945,4.945,0,0,0,1.191,1.668,7.351,7.351,0,0,0,1.866,1.231,16.21,16.21,0,0,0,2.482.913,8.986,8.986,0,0,1,1.569.6q.615.319.615.794a.726.726,0,0,1-.457.7,2.94,2.94,0,0,1-1.25.218,7.027,7.027,0,0,1-2.5-.516,6.768,6.768,0,0,1-1.012-.485,2.059,2.059,0,0,0-2.629.438l-2.144,2.557A1.593,1.593,0,0,0,480.192,375.232Z" transform="translate(-473.918 -344.913)" fill="#2e2e2d"/>
+      <path id="Trazado_3" data-name="Trazado 3" d="M522.608,375.129l3.129-17.7a1.326,1.326,0,0,0-1.306-1.558h-5.24a2.472,2.472,0,0,0-2.433,2.041L513.789,374.7a1.756,1.756,0,0,0,1.729,2.061h5.145A1.974,1.974,0,0,0,522.608,375.129Z" transform="translate(-487.46 -345.352)" fill="#2e2e2d"/>
+      <path id="Trazado_4" data-name="Trazado 4" d="M521.412,346.3a4.09,4.09,0,0,0,1.37.854,5.042,5.042,0,0,0,1.847.317,5.169,5.169,0,0,0,2.044-.4,4.657,4.657,0,0,0,1.588-1.093,4.887,4.887,0,0,0,1.012-1.628,5.55,5.55,0,0,0,.358-2,3.45,3.45,0,0,0-.318-1.45,3.877,3.877,0,0,0-.893-1.231,4.341,4.341,0,0,0-1.39-.854,4.826,4.826,0,0,0-1.767-.317,5.138,5.138,0,0,0-2.065.4,4.942,4.942,0,0,0-1.588,1.092,4.751,4.751,0,0,0-1.032,1.628,5.565,5.565,0,0,0-.357,2.005,3.446,3.446,0,0,0,.317,1.449A4.01,4.01,0,0,0,521.412,346.3Z" transform="translate(-490.007 -338.5)" fill="#2e2e2d"/>
+      <path id="Trazado_5" data-name="Trazado 5" d="M537.413,370.812h5.344a1.974,1.974,0,0,0,1.944-1.632l4.72-26.828a1.326,1.326,0,0,0-1.306-1.556h-5.438a2.47,2.47,0,0,0-2.433,2.042l-4.559,25.915A1.755,1.755,0,0,0,537.413,370.812Z" transform="translate(-496.095 -339.405)" fill="#2e2e2d"/>
+      <path id="Trazado_6" data-name="Trazado 6" d="M562.693,374.913a2.215,2.215,0,0,0,2.184,1.846H571a2.949,2.949,0,0,0,2.545-1.459L583.8,357.783a1.268,1.268,0,0,0-1.094-1.909H577.12a3.181,3.181,0,0,0-2.893,1.859l-4.431,9.7h-.159l-.668-9.724a1.964,1.964,0,0,0-1.96-1.83h-5.794a1.473,1.473,0,0,0-1.452,1.718Z" transform="translate(-505.594 -345.352)" fill="#2e2e2d"/>
+      <path id="Trazado_7" data-name="Trazado 7" d="M599.9,371.64a8.62,8.62,0,0,0,2.363,2.958,10.146,10.146,0,0,0,3.494,1.787,14.786,14.786,0,0,0,4.228.6,18.356,18.356,0,0,0,5.519-.833,10.958,10.958,0,0,0,3.017-1.485,1.608,1.608,0,0,0-.013-2.639l-3.149-2.169a1.981,1.981,0,0,0-2.1-.053,4.76,4.76,0,0,1-.731.33,5.8,5.8,0,0,1-1.945.337,6.613,6.613,0,0,1-1.073-.1,3.862,3.862,0,0,1-1.111-.357,2.773,2.773,0,0,1-.874-.675,1.623,1.623,0,0,1-.357-1.093.87.87,0,0,1,.04-.277h12.427a2.209,2.209,0,0,0,2.2-1.886l0-.021a14.424,14.424,0,0,0,.139-1.905,10.3,10.3,0,0,0-.695-3.872,8.259,8.259,0,0,0-1.966-2.938,8.664,8.664,0,0,0-3.1-1.866,12.167,12.167,0,0,0-4.13-.655,14.008,14.008,0,0,0-5.3.973,12.455,12.455,0,0,0-4.129,2.68,12.01,12.01,0,0,0-2.68,4.03,13,13,0,0,0-.953,4.983A9.262,9.262,0,0,0,599.9,371.64Zm8.2-9.265a3.923,3.923,0,0,1,.774-.866,4.512,4.512,0,0,1,1.132-.685,3.739,3.739,0,0,1,1.489-.282,3.128,3.128,0,0,1,2.045.605,1.982,1.982,0,0,1,.734,1.612v.221a.827.827,0,0,1-.04.262h-6.551A3.423,3.423,0,0,1,608.1,362.376Z" transform="translate(-521.088 -344.938)" fill="#2e2e2d"/>
+      <path id="Trazado_8" data-name="Trazado 8" d="M657.3,355.153h-.022a5.548,5.548,0,0,0-3.1.853,8.3,8.3,0,0,0-2.224,2.124h-.119c.026-.159.06-.357.1-.6.011-.065.035-.227.064-.432a1.328,1.328,0,0,0-1.313-1.513h-4.879a2.472,2.472,0,0,0-2.446,2.123c-.124.875-.251,1.738-.3,1.966l-2.613,14.733a1.756,1.756,0,0,0,1.729,2.062h4.994a1.973,1.973,0,0,0,1.944-1.631l1.5-8.494a4.661,4.661,0,0,1,1.428-2.561,4.881,4.881,0,0,1,3.365-1.092q.437,0,.953.039h.01a1.042,1.042,0,0,0,1.115-.8l1.134-5.131A1.359,1.359,0,0,0,657.3,355.153Z" transform="translate(-537.416 -345.068)" fill="#2e2e2d"/>
+      <path id="Trazado_9" data-name="Trazado 9" d="M495.8,403.319a7.486,7.486,0,0,0-2.68-1.905,9.286,9.286,0,0,0-3.712-.7,7.678,7.678,0,0,0-3.335.735,7.311,7.311,0,0,0-2.581,2h-.079l.124-.707a1.327,1.327,0,0,0-1.306-1.556h-4.768a2.471,2.471,0,0,0-2.433,2.039l-4.672,26.312a1.756,1.756,0,0,0,1.729,2.063H477.2a1.973,1.973,0,0,0,1.942-1.623l1.731-9.574h.079a4.829,4.829,0,0,0,2.3,1.609,8.844,8.844,0,0,0,3.1.576,10.447,10.447,0,0,0,4.626-1.033,11.914,11.914,0,0,0,3.693-2.779,12.657,12.657,0,0,0,2.441-4.11,14.372,14.372,0,0,0,.874-5.023,10.757,10.757,0,0,0-.556-3.494A8.27,8.27,0,0,0,495.8,403.319Zm-6.75,9.292a4.446,4.446,0,0,1-.814,1.449,3.8,3.8,0,0,1-1.291.993,3.943,3.943,0,0,1-1.707.357,3.058,3.058,0,0,1-2.323-.854,3.009,3.009,0,0,1-.814-2.164,5.155,5.155,0,0,1,.3-1.747,4.465,4.465,0,0,1,.835-1.449,4.23,4.23,0,0,1,1.27-.993,3.554,3.554,0,0,1,1.648-.377,3.075,3.075,0,0,1,2.362.874,3.031,3.031,0,0,1,.814,2.144A5.453,5.453,0,0,1,489.051,412.611Z" transform="translate(-470.331 -363.039)" fill="#2e2e2d"/>
+      <path id="Trazado_10" data-name="Trazado 10" d="M565.482,401.506h-5.24a2.471,2.471,0,0,0-2.433,2.041l-2.968,16.783a1.756,1.756,0,0,0,1.729,2.061h5.145a1.975,1.975,0,0,0,1.944-1.63l3.128-17.7A1.327,1.327,0,0,0,565.482,401.506Z" transform="translate(-503.65 -363.349)" fill="#2e2e2d"/>
+      <path id="Trazado_11" data-name="Trazado 11" d="M646.275,398.429h-4.412l.552-3.17a1.327,1.327,0,0,0-1.307-1.555H636.1a2.47,2.47,0,0,0-2.434,2.047l-.466,2.678h-4.375a2.471,2.471,0,0,0-2.434,2.048l-.4,2.289a1.755,1.755,0,0,0,1.73,2.056h4.363l-2.166,12.436a1.755,1.755,0,0,0,1.729,2.057h4.913a1.974,1.974,0,0,0,1.945-1.635l2.239-12.858h4.331a1.974,1.974,0,0,0,1.945-1.636l.557-3.2A1.326,1.326,0,0,0,646.275,398.429Z" transform="translate(-531.714 -360.272)" fill="#2e2e2d"/>
+      <path id="Trazado_12" data-name="Trazado 12" d="M538.089,401.383a8.649,8.649,0,0,0-2.659-.572c-.209-.016-.431-.027-.678-.027a5.552,5.552,0,0,0-3.1.853,8.3,8.3,0,0,0-2.223,2.124h-.119c.026-.159.06-.357.1-.6.011-.065.035-.227.064-.432a1.327,1.327,0,0,0-1.313-1.513H523.34a2.488,2.488,0,0,0-2.461,2.12l0,.024q-.179,1.192-.337,1.946l-2.613,14.733a1.755,1.755,0,0,0,1.728,2.062H524.8a1.974,1.974,0,0,0,1.944-1.631l1.5-8.494a4.658,4.658,0,0,1,1.429-2.561,4.486,4.486,0,0,1,3.216-1.092v.005a16.012,16.012,0,0,1,3.745.672,1.031,1.031,0,0,0,1.331-.8l.94-5.317A1.362,1.362,0,0,0,538.089,401.383Z" transform="translate(-489.091 -363.065)" fill="#2e2e2d"/>
+      <path id="Trazado_13" data-name="Trazado 13" d="M602.316,402.605a5.606,5.606,0,0,0-1.985-1.37,6.772,6.772,0,0,0-2.088-.48s-1.715-.036-2.323-.036a11.9,11.9,0,0,0-4.631.6h0a7.1,7.1,0,0,0-.712.357,8.038,8.038,0,0,0-2.561,2.223h-.159c.025-.174.082-.693.138-1.236a1.327,1.327,0,0,0-1.32-1.464h-4.953a2.47,2.47,0,0,0-2.444,2.11c-.128.875-.263,1.73-.315,1.98l-2.579,14.737a1.755,1.755,0,0,0,1.729,2.058h5.154a1.974,1.974,0,0,0,1.943-1.624l1.693-9.414a4.483,4.483,0,0,1,.973-2.362,2.568,2.568,0,0,1,1.048-.752,7.726,7.726,0,0,1,2.293-.222c.635,0,2.2-.035,2.818.656a1.862,1.862,0,0,1,.437,1.291c0,.159-.007.365-.02.615a4.563,4.563,0,0,1-.1.735l-1.584,9.019a1.756,1.756,0,0,0,1.729,2.059h5.186a1.973,1.973,0,0,0,1.945-1.635l1.9-10.911a13.405,13.405,0,0,0,.179-1.331q.059-.695.059-1.33a7.9,7.9,0,0,0-.338-2.3A5.092,5.092,0,0,0,602.316,402.605Z" transform="translate(-512.147 -363.039)" fill="#2e2e2d"/>
+    </g>
+    <g id="Grupo_2" data-name="Grupo 2" transform="translate(14.551 14.516)">
+      <path id="Trazado_14" data-name="Trazado 14" d="M561.709,462.534a7.768,7.768,0,0,1-7.65,6.422H478.182a5.561,5.561,0,0,1-5.477-6.525l.357-2.027H464.4l-.962,5.465a10.381,10.381,0,0,0,10.225,12.179h82.79a13.325,13.325,0,0,0,13.124-11.016l2.843-16.158h-8.66Z" transform="translate(-463.28 -354.814)" fill="#da0021"/>
+      <path id="Trazado_15" data-name="Trazado 15" d="M583.171,292.255H507.1a17.392,17.392,0,0,0-17.129,14.378l-2.545,14.47.052-.01,8.609.01,2.462-14a6.965,6.965,0,0,1,6.86-5.759h77.747a4.556,4.556,0,0,1,4.487,5.346l-2.535,14.41h8.66l2.36-13.414A13.156,13.156,0,0,0,583.171,292.255Z" transform="translate(-472.803 -292.255)" fill="#da0021"/>
+    </g>
+  </g>
+</svg>
+</div>
+
+    <!--BLUE-->
+    <div class="flex font-mono">
+    <div class="p-4 m-2 w-32"></div>
+     <!--INICIO-->
+    <div class="p-4 m-2 hover:bg-gray-600 cursor-pointer"> INICIO </div>
+     <!--COLECCIONES -->
+    <div class="p-4 m-2  cursor-pointer">
+    <ul>
+    <li class="dropdown inline text-blue-100 text-sm">
+    <a> COLECCIONES <!-- <svg class="fill-current inline-block h-4 w-4 transform group-hover:-rotate-180 transition duration-150 ease-in-out"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 20 20">
+    <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" /> </svg> --> </a>
+    <div class="dropdown-menu absolute hidden h-auto flex pt-4">
+    <ul class="block  bg-gray-600  px-10 py-6">
+    <li class="py-1"><a class="block text-blue-100 font-mono text-sm uppercase hover:text-blue-300 cursor-pointer">Colección 1</a></li>
+    <li class="py-1"><a class="block text-blue-100 font-mono text-sm uppercase hover:text-blue-300 cursor-pointer">Colección 2</a></li>
+    <li class="py-1"><a class="block text-blue-100 font-mono text-sm uppercase hover:text-blue-300 cursor-pointer">Colección 3</a></li>
+    </ul>
+    </div>
+    </li>  
+    </ul>
+    </div>
+     <!--SERVICIOS -->
+    <div class="p-4 m-2 cursor-pointer">
+    <ul class="w-full">
+    <li class="dropdown inline px-4 text-blue-100 text-sm hover:text-blue-200 cursor-pointer text-sm">
+    <a class="text-blue-100 text-sm"> SERVICIOS <!--<svg class="fill-current inline-block h-4 w-4 transform group-hover:-rotate-180 transition duration-150 ease-in-out"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 20 20">
+    <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/> </svg> --></a> 
+    <div class="dropdown-menu absolute hidden h-auto flex pt-4">
+    <ul class="block w-full bg-gray-600 px-10 py-6">
+    <li class="py-1"><a class="block text-blue-100 font-mono text-sm uppercase hover:text-blue-200 cursor-pointer">IMPRESIÓN <br> DIGITAL</a></li>
+    <li class="py-1"><a class="block text-blue-100 font-mono text-sm uppercase hover:text-blue-200 cursor-pointer">GRAN FORMATO</a></li>
+    <li class="py-1"><a class="block text-blue-100 font-mono text-sm uppercase hover:text-blue-200 cursor-pointer">VINÍL <br> RECORTADO</a></li>
+    <li class="py-1"><a class="block text-blue-100 font-mono text-sm uppercase hover:text-blue-200 cursor-pointer">ACRÍLICO <br> DECORATIVO</a></li>
+    </ul>
+    </div>
+    </li>  
+    </ul>
+    </div>
+     <!--TIENDA-->
+    <div class="p-4 m-2 cursor-pointer ">
+    <ul class="w-full">
+    <li class="dropdown inline px-4 text-blue-100 text-sm hover:text-blue-200 cursor-pointer text-sm">
+    <a class="text-blue-100 text-sm"> TIENDA <!--<svg class="fill-current inline-block h-4 w-4 transform group-hover:-rotate-180 transition duration-150 ease-in-out"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 20 20">
+    <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" /> </svg> --> </a> 
+    <div class="dropdown-menu absolute hidden h-auto flex pt-4">
+    <ul class="block w-full bg-gray-600 shadow px-12 py-6">
+    <li class="py-1"><a class="block text-white font-mono text-base uppercase hover:text-purple-700 cursor-pointer">Tienda 1</a></li>
+    <li class="py-1"><a class="block text-white font-mono text-base uppercase hover:text-purple-700 cursor-pointer">Tienda 2</a></li>
+    <li class="py-1"><a class="block text-white font-mono text-base uppercase hover:text-purple-700 cursor-pointer">Tienda 3</a></li>
+    </ul>
+    </div>
+    </li>  
+    </ul>
+    </div>
+     <!--CONTACTO-->
+    <div class="p-4 m-2 cursor-pointer ">
+    <ul class="w-full">
+    <li class="dropdown inline px-4 text-blue-100 text-sm hover:text-blue-200 cursor-pointer text-sm">
+    <a class="text-blue-100 text-sm"> CONTACTO <!-- <svg class="fill-current inline-block h-4 w-4 transform group-hover:-rotate-180 transition duration-150 ease-in-out"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 20 20">
+    <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" /> </svg> --> </a> 
+    <div class="dropdown-menu absolute hidden h-auto flex pt-4">
+    <ul class="block w-full bg-gray-600 shadow px-12 py-6">
+    <li class="py-1"><a class="block text-white font-mono text-base uppercase hover:text-purple-700 cursor-pointer">Contacto 1</a></li>
+    <li class="py-1"><a class="block text-white font-mono text-base uppercase hover:text-purple-700 cursor-pointer">Contacto 2</a></li>
+    <li class="py-1"><a class="block text-white font-mono text-base uppercase hover:text-purple-700 cursor-pointer">Contacto  3</a></li>
+    </ul>
+    </div>
+    </li>  
+    </ul>
+    </div>
+    <!--BUSCAR -->
+    <div class="max-w-xs w-full relative text-gray-600 focus-within:text-gray-800">
+    <span class="absolute inset-y-0 left-0 flex items-center pl-4">
+        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 21 21">
+    <path id="Trazado_18" data-name="Trazado 18" d="M68.763,67.621l-5.305-5.305A8.733,8.733,0,0,0,56.738,48h0a8.738,8.738,0,1,0,5.578,15.458l5.305,5.305a.808.808,0,0,0,1.142-1.142ZM56.738,63.86a7.122,7.122,0,1,1,7.122-7.122A7.13,7.13,0,0,1,56.738,63.86Z" transform="translate(-48 -48)" fill="#496477"/>
+    </svg>
+        </span> <br>
+        <input class="block h-8 w-full rounded-full pl-8 pr-5 py-2 text-lg border-2 transparent" id="company" type="text" placeholder=" BUSCAR"> 
+    </div>
+    <!--USUARIO -->
+    <div class="p-4 m-2 hover:bg-gray-600 cursor-pointer">Hola <strong>USUARIO </strong></div>
+    <!--CARRITO -->
+    <div class="p-4 m-2 hover:bg-gray-600 cursor-pointer">
+       <svg class="stroke-current text-blue-100 inline-block h-5 w-8" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+       <circle cx="8" cy="21" r="2" />
+       <circle cx="20" cy="21" r="2" />
+       <path d="M5.67 6H23l-1.68 8.39a2 2 0 0 1-2 1.61H8.75a2 2 0 0 1-2-1.74L5.23 2.74A2 2 0 0 0 3.25 1H1" />
+       </svg>
+       </div>
+    </div>
+    </nav>
+<%= yield %>
+</body>
+
+</html>
